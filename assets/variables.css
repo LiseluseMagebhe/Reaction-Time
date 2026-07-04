@@ -1,0 +1,110 @@
+:root {
+    /* =========================================
+       Default Theme: Dark High-Contrast
+       ========================================= */
+    --background-primary: #000000;
+    --background-secondary: #070707;
+    
+    /* Text States */
+    --text-primary: #ffffff;
+    --text-secondary: #1e2126;
+    --text-active: #fbbf24;
+    --text-correct: #4ade80;
+    --text-error: #f87171;
+    --caret-color: #fbbf24;
+
+    /* Play Button */
+    --btn-play-bg: #10b981;
+    --btn-play-hover: #34d399;
+    --btn-play-text: #ffffff;
+    --btn-play-border: #047857;
+    --btn-play-border-hover: #10b981; 
+    
+    /* Difficulty Button */
+    --btn-diff-bg: #f97316;
+    --btn-diff-hover: #fb923c;
+    --btn-diff-text: #ffffff;
+    --btn-diff-border: #c2410c;
+    --btn-diff-border-hover: #f97316;
+    
+    /* Scoreboard Button */
+    --btn-score-bg: #6366f1;
+    --btn-score-hover: #818cf8;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #4338ca;
+    --btn-score-border-hover: #6366f1;
+}
+
+/* =========================================
+   Second Theme: Clean Light
+   ========================================= */
+[data-theme="light"] {
+    --background-primary: #ffffff;
+    --background-secondary: #f3f4f6;
+    
+    /* Text States */
+    --text-primary: #111827;
+    --text-secondary: #9ca3af;
+    --text-active: #2563eb;
+    --text-correct: #16a34a;
+    --text-error: #dc2626;
+    --caret-color: #2563eb;
+
+    /* Play Button */
+    --btn-play-bg: #2563eb;
+    --btn-play-hover: #3b82f6;
+    --btn-play-text: #ffffff;
+    --btn-play-border: #1e40af;
+    --btn-play-border-hover: #2563eb;
+    
+    /* Difficulty Button */
+    --btn-diff-bg: #dc2626;
+    --btn-diff-hover: #ef4444;
+    --btn-diff-text: #ffffff;
+    --btn-diff-border: #991b1b;
+    --btn-diff-border-hover: #dc2626;
+    
+    /* Scoreboard Button */
+    --btn-score-bg: #475569;
+    --btn-score-hover: #64748b;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #334155;
+    --btn-score-border-hover: #475569;
+}
+
+/* =========================================
+   Third Theme: Retro Terminal
+   ========================================= */
+[data-theme="terminal"] {
+    --background-primary: #050505;
+    --background-secondary: #000000;
+    
+    /* Text States */
+    --text-primary: #32cd32;
+    --text-secondary: #004d00;
+    --text-active: #ffffff;
+    --text-correct: #32cd32;
+    --text-error: #ff0000;
+    --caret-color: #ffffff;
+
+    /* Play Button */
+    --btn-play-bg: #32cd32;
+    --btn-play-hover: #3fff3f;
+    --btn-play-text: #000000;         
+    --btn-play-border: #32cd32;
+    --btn-play-border-hover: #3fff3f;
+    
+    /* Difficulty Button */
+    --btn-diff-bg: #ffd700;
+    --btn-diff-hover: #ffff4d;
+    --btn-diff-text: #000000;
+    --btn-diff-border: #ffd700;
+    --btn-diff-border-hover: #ffff4d;
+    
+    /* Scoreboard Button */
+    --btn-score-bg: #00ced1;
+    --btn-score-hover: #48d1cc;
+    --btn-score-text: #000000;
+    --btn-score-border: #00ced1;
+    --btn-score-border-hover: #48d1cc;
+}
