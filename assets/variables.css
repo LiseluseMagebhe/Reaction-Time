@@ -1,110 +1,300 @@
 :root {
     /* =========================================
-       Default Theme: Dark High-Contrast
+       Default Theme: Obsidian
+       Near-black base. Accents drawn from one
+       triad — teal, amber, violet — so the three
+       buttons read as a family, not a grab bag.
        ========================================= */
-    --background-primary: #000000;
-    --background-secondary: #070707;
-    
-    /* Text States */
-    --text-primary: #ffffff;
-    --text-secondary: #1e2126;
+    --background-primary: #0a0a0f;
+    --background-secondary: #16161f;
+    --bg-pattern: radial-gradient(circle, #24242f 1px, transparent 1px);
+    --bg-pattern-size: 26px 26px;
+
+    --text-primary: #f5f5f7;
+    --text-secondary: #6b7280;
     --text-active: #fbbf24;
     --text-correct: #4ade80;
     --text-error: #f87171;
     --caret-color: #fbbf24;
 
-    /* Play Button */
-    --btn-play-bg: #10b981;
-    --btn-play-hover: #34d399;
-    --btn-play-text: #ffffff;
-    --btn-play-border: #047857;
-    --btn-play-border-hover: #10b981; 
-    
-    /* Difficulty Button */
-    --btn-diff-bg: #f97316;
-    --btn-diff-hover: #fb923c;
-    --btn-diff-text: #ffffff;
-    --btn-diff-border: #c2410c;
-    --btn-diff-border-hover: #f97316;
-    
-    /* Scoreboard Button */
-    --btn-score-bg: #6366f1;
-    --btn-score-hover: #818cf8;
+    --btn-play-bg: #14b8a6;
+    --btn-play-hover: #2dd4bf;
+    --btn-play-text: #0a0a0f;
+    --btn-play-border: #0f766e;
+    --btn-play-border-hover: #14b8a6;
+
+    --btn-diff-bg: #f59e0b;
+    --btn-diff-hover: #fbbf24;
+    --btn-diff-text: #0a0a0f;
+    --btn-diff-border: #b45309;
+    --btn-diff-border-hover: #f59e0b;
+
+    --btn-score-bg: #8b5cf6;
+    --btn-score-hover: #a78bfa;
     --btn-score-text: #ffffff;
-    --btn-score-border: #4338ca;
-    --btn-score-border-hover: #6366f1;
+    --btn-score-border: #6d28d9;
+    --btn-score-border-hover: #8b5cf6;
 }
 
 /* =========================================
-   Second Theme: Clean Light
+   Second Theme: Rosewood (Calm — Light)
+   Warm blush base, wine accent. Sage/terracotta/
+   denim triad keeps it soft without going bland.
    ========================================= */
-[data-theme="light"] {
-    --background-primary: #ffffff;
-    --background-secondary: #f3f4f6;
-    
-    /* Text States */
-    --text-primary: #111827;
-    --text-secondary: #9ca3af;
-    --text-active: #2563eb;
-    --text-correct: #16a34a;
-    --text-error: #dc2626;
-    --caret-color: #2563eb;
+[data-theme="rosewood"] {
+    --background-primary: #fbf3f0;
+    --background-secondary: #f0e0da;
+    --bg-pattern: radial-gradient(circle, #e8d2ca 1px, transparent 1px);
+    --bg-pattern-size: 26px 26px;
 
-    /* Play Button */
-    --btn-play-bg: #2563eb;
-    --btn-play-hover: #3b82f6;
+    --text-primary: #3d2b2e;
+    --text-secondary: #a68a86;
+    --text-active: #b3495b;
+    --text-correct: #5c8a6a;
+    --text-error: #c1443c;
+    --caret-color: #b3495b;
+
+    --btn-play-bg: #5c8a6a;
+    --btn-play-hover: #71a380;
     --btn-play-text: #ffffff;
-    --btn-play-border: #1e40af;
-    --btn-play-border-hover: #2563eb;
-    
-    /* Difficulty Button */
-    --btn-diff-bg: #dc2626;
-    --btn-diff-hover: #ef4444;
+    --btn-play-border: #416b4c;
+    --btn-play-border-hover: #5c8a6a;
+
+    --btn-diff-bg: #c47f3e;
+    --btn-diff-hover: #d69756;
     --btn-diff-text: #ffffff;
-    --btn-diff-border: #991b1b;
-    --btn-diff-border-hover: #dc2626;
-    
-    /* Scoreboard Button */
-    --btn-score-bg: #475569;
-    --btn-score-hover: #64748b;
+    --btn-diff-border: #9c631f;
+    --btn-diff-border-hover: #c47f3e;
+
+    --btn-score-bg: #6b7fa3;
+    --btn-score-hover: #8296b8;
     --btn-score-text: #ffffff;
-    --btn-score-border: #334155;
-    --btn-score-border-hover: #475569;
+    --btn-score-border: #4f6080;
+    --btn-score-border-hover: #6b7fa3;
 }
 
 /* =========================================
-   Third Theme: Retro Terminal
+   Third Theme: Amber Noir (Dark — Lounge)
+   Espresso-brown base, amber-gold accent.
+   Olive / terracotta / plum triad — a jazz-bar
+   palette rather than a mall-goth one.
    ========================================= */
-[data-theme="terminal"] {
-    --background-primary: #050505;
-    --background-secondary: #000000;
-    
-    /* Text States */
-    --text-primary: #32cd32;
-    --text-secondary: #004d00;
-    --text-active: #ffffff;
-    --text-correct: #32cd32;
-    --text-error: #ff0000;
-    --caret-color: #ffffff;
+[data-theme="amber-noir"] {
+    --background-primary: #1c1410;
+    --background-secondary: #2a1f18;
+    --bg-pattern: radial-gradient(circle, #3a2c22 1px, transparent 1px);
+    --bg-pattern-size: 26px 26px;
 
-    /* Play Button */
-    --btn-play-bg: #32cd32;
-    --btn-play-hover: #3fff3f;
-    --btn-play-text: #000000;         
-    --btn-play-border: #32cd32;
-    --btn-play-border-hover: #3fff3f;
-    
-    /* Difficulty Button */
-    --btn-diff-bg: #ffd700;
-    --btn-diff-hover: #ffff4d;
-    --btn-diff-text: #000000;
-    --btn-diff-border: #ffd700;
-    --btn-diff-border-hover: #ffff4d;
-    
-    /* Scoreboard Button */
-    --btn-score-bg: #00ced1;
-    --btn-score-hover: #48d1cc;
-    --btn-score-text: #000000;
-    --btn-score-border: #00ced1;
-    --btn-score-border-hover: #48d1cc;
+    --text-primary: #f2e6d8;
+    --text-secondary: #8a7361;
+    --text-active: #e0a458;
+    --text-correct: #9caf6b;
+    --text-error: #c15b4a;
+    --caret-color: #e0a458;
+
+    --btn-play-bg: #7a8c5c;
+    --btn-play-hover: #93a873;
+    --btn-play-text: #1c1410;
+    --btn-play-border: #5c6b43;
+    --btn-play-border-hover: #7a8c5c;
+
+    --btn-diff-bg: #c1673f;
+    --btn-diff-hover: #d17e57;
+    --btn-diff-text: #1c1410;
+    --btn-diff-border: #954f2f;
+    --btn-diff-border-hover: #c1673f;
+
+    --btn-score-bg: #6f5aa3;
+    --btn-score-hover: #8a74bd;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #52407a;
+    --btn-score-border-hover: #6f5aa3;
+}
+
+/* =========================================
+   Fourth Theme: Sage Mist (Calm — Light)
+   Muted greens on warm off-white. Low contrast,
+   no pure black/white anywhere, easy on the eyes.
+   ========================================= */
+[data-theme="sage-mist"] {
+    --background-primary: #f5f7f2;
+    --background-secondary: #e8ede2;
+    --bg-pattern: radial-gradient(circle, #d9e0cf 1px, transparent 1px);
+    --bg-pattern-size: 24px 24px;
+
+    --text-primary: #2f3b2f;
+    --text-secondary: #8a9484;
+    --text-active: #4d7358;
+    --text-correct: #6b9c65;
+    --text-error: #b9695a;
+    --caret-color: #4d7358;
+
+    --btn-play-bg: #6b9c65;
+    --btn-play-hover: #7fb078;
+    --btn-play-text: #ffffff;
+    --btn-play-border: #4d7358;
+    --btn-play-border-hover: #6b9c65;
+
+    --btn-diff-bg: #d8a05f;
+    --btn-diff-hover: #e3b378;
+    --btn-diff-text: #2f3b2f;
+    --btn-diff-border: #b17f43;
+    --btn-diff-border-hover: #d8a05f;
+
+    --btn-score-bg: #7c94a8;
+    --btn-score-hover: #93a9bc;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #5e7590;
+    --btn-score-border-hover: #7c94a8;
+}
+
+/* =========================================
+   Fifth Theme: Dusk Lavender (Calm — Dark)
+   Muted purple-navy, warm accents, minimal blue
+   light. A gentler alternative to the default.
+   ========================================= */
+[data-theme="dusk-lavender"] {
+    --background-primary: #1b1b2f;
+    --background-secondary: #24243e;
+    --bg-pattern: radial-gradient(circle, #34345a 1px, transparent 1px);
+    --bg-pattern-size: 28px 28px;
+
+    --text-primary: #e0dcf0;
+    --text-secondary: #6b6890;
+    --text-active: #b39ddb;
+    --text-correct: #9ccc9c;
+    --text-error: #d98b8b;
+    --caret-color: #b39ddb;
+
+    --btn-play-bg: #7e6bb0;
+    --btn-play-hover: #9483c4;
+    --btn-play-text: #ffffff;
+    --btn-play-border: #5d4d8a;
+    --btn-play-border-hover: #7e6bb0;
+
+    --btn-diff-bg: #c98a5e;
+    --btn-diff-hover: #d69f78;
+    --btn-diff-text: #1b1b2f;
+    --btn-diff-border: #a56c43;
+    --btn-diff-border-hover: #c98a5e;
+
+    --btn-score-bg: #6b8fa3;
+    --btn-score-hover: #82a5b8;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #4f7185;
+    --btn-score-border-hover: #6b8fa3;
+}
+
+/* =========================================
+   Sixth Theme: Cyber Arcade (Game — Synthwave)
+   Deep purple-black base, neon pink/cyan accents.
+   Grid pattern evokes a synthwave horizon.
+   ========================================= */
+[data-theme="cyber-arcade"] {
+    --background-primary: #0d0221;
+    --background-secondary: #1a0b3d;
+    --bg-pattern: linear-gradient(#2a1458 1px, transparent 1px),
+                  linear-gradient(90deg, #2a1458 1px, transparent 1px);
+    --bg-pattern-size: 32px 32px;
+
+    --text-primary: #f5f5f5;
+    --text-secondary: #6f4ba0;
+    --text-active: #ff2fb0;
+    --text-correct: #05ffa1;
+    --text-error: #ff3860;
+    --caret-color: #00e5ff;
+
+    --btn-play-bg: #00e5ff;
+    --btn-play-hover: #4df2ff;
+    --btn-play-text: #0d0221;
+    --btn-play-border: #00b8cc;
+    --btn-play-border-hover: #00e5ff;
+
+    --btn-diff-bg: #ff2fb0;
+    --btn-diff-hover: #ff66c4;
+    --btn-diff-text: #0d0221;
+    --btn-diff-border: #c4227f;
+    --btn-diff-border-hover: #ff2fb0;
+
+    --btn-score-bg: #7b2ff7;
+    --btn-score-hover: #9457f9;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #5a1fc2;
+    --btn-score-border-hover: #7b2ff7;
+}
+
+/* =========================================
+   Seventh Theme: Pixel Quest (Game — Retro RPG)
+   Parchment/gold on deep plum. Checkerboard pattern
+   nods to 8-bit tile grids.
+   ========================================= */
+[data-theme="pixel-quest"] {
+    --background-primary: #1a1423;
+    --background-secondary: #2d1b2e;
+    --bg-pattern: linear-gradient(45deg, #241a2e 25%, transparent 25%, transparent 75%, #241a2e 75%),
+                  linear-gradient(45deg, #241a2e 25%, transparent 25%, transparent 75%, #241a2e 75%);
+    --bg-pattern-size: 20px 20px;
+
+    --text-primary: #f4e9cd;
+    --text-secondary: #8b6f47;
+    --text-active: #ffd23f;
+    --text-correct: #6ecb63;
+    --text-error: #e84855;
+    --caret-color: #ffd23f;
+
+    --btn-play-bg: #4d9e5e;
+    --btn-play-hover: #63b374;
+    --btn-play-text: #f4e9cd;
+    --btn-play-border: #367b46;
+    --btn-play-border-hover: #4d9e5e;
+
+    --btn-diff-bg: #d1495b;
+    --btn-diff-hover: #dd6474;
+    --btn-diff-text: #f4e9cd;
+    --btn-diff-border: #a83445;
+    --btn-diff-border-hover: #d1495b;
+
+    --btn-score-bg: #d4a017;
+    --btn-score-hover: #e3b53f;
+    --btn-score-text: #1a1423;
+    --btn-score-border: #a87d10;
+    --btn-score-border-hover: #d4a017;
+}
+
+/* =========================================
+   Eighth Theme: Neon Skyline (City — Night)
+   Near-black navy base, amber/teal neon-sign
+   accents. Windowpane grid pattern.
+   ========================================= */
+[data-theme="neon-skyline"] {
+    --background-primary: #0a0e17;
+    --background-secondary: #131a26;
+    --bg-pattern: linear-gradient(#1c2635 1px, transparent 1px),
+                  linear-gradient(90deg, #1c2635 1px, transparent 1px);
+    --bg-pattern-size: 40px 60px;
+
+    --text-primary: #e8edf2;
+    --text-secondary: #56677a;
+    --text-active: #ffb703;
+    --text-correct: #2ec4b6;
+    --text-error: #e63946;
+    --caret-color: #ffb703;
+
+    --btn-play-bg: #2ec4b6;
+    --btn-play-hover: #4dd4c7;
+    --btn-play-text: #0a0e17;
+    --btn-play-border: #1f9a8f;
+    --btn-play-border-hover: #2ec4b6;
+
+    --btn-diff-bg: #e63946;
+    --btn-diff-hover: #ee5a65;
+    --btn-diff-text: #ffffff;
+    --btn-diff-border: #b3222d;
+    --btn-diff-border-hover: #e63946;
+
+    --btn-score-bg: #457b9d;
+    --btn-score-hover: #5f94b4;
+    --btn-score-text: #ffffff;
+    --btn-score-border: #305a76;
+    --btn-score-border-hover: #457b9d;
 }

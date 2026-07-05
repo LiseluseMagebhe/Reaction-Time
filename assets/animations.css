@@ -1,0 +1,28 @@
+@keyframes wrong {
+    10%{
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    20%{
+        transform: translateX(-5px) rotate(-5deg);
+    }
+
+    30%{
+        transform: translateX(5px) rotate(5deg);
+    }
+
+    40%{
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    100%{
+        transform: translateX(5px) rotate(2deg);
+    }
+}
+
+@keyframes correct {
+    50%{
+        transform: translateY(-30px) scale(1.2);
+    }
+}
+
