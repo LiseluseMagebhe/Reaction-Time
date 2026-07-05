@@ -2,7 +2,7 @@
 
 A simple browser-based character reaction game built with HTML, CSS, and JavaScript.
 
-The game currently generates random characters and displays them as large boxes. This is an early version (`v0.1`) focused on UI setup and text generation.
+The game currently generates random characters and displays them as large boxes. This is an early version (`v0.1`) current set up is focused on UI and text generation.
 
 ## Features
 
@@ -61,7 +61,7 @@ let difficulty = 3;
   - Creates one `.text-box` per character
   - Displays uppercase characters in the main container
 
-## Next Improvements (Suggested)
+## Next Improvements
 
 - Add keyboard input handling
 - Compare typed input against generated characters
@@ -73,7 +73,3 @@ let difficulty = 3;
 ## Version
 
 - `v0.1` - Initial UI and random character generation
-
-## License
-
-No license specified yet. Add a `LICENSE` file if you want this project to be open-source.
